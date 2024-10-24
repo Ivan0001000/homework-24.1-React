@@ -4,9 +4,14 @@ body {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #000000;
   padding: 20px;
   text-align: center;
+border-bottom: 1px solid white;
+}
+
+.App-header nav a:not(:last-child){
+  margin-right: 10px;
 }
 
 .navbar {
@@ -22,3 +27,31 @@ body {
   color: black;
 }
 
+.banner {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.img-wrapp{
+  width: auto;
+  text-align: center;
+  margin: 20px 0;
+}
+
+a {
+  color: rgb(0, 60, 255); 
+  text-decoration: none; 
+}
+
+a:hover {
+  color: red; 
+}
+
+a:visited {
+  color: purple; 
+}
+
+a:active {
+  color: orange; 
+}
